@@ -13,9 +13,9 @@ public class Values {
         this.positions = writePositions(weights);
     }
 
-    /**                                                            [][  ][    ]
-     * Создаём пространство для выбора случайного значения рандомом * * * * * *
-     * @param weights
+    /**                                                            
+     * Создаём пространство для выбора случайного значения рандомом 
+     * 
      */
     private int[] writePositions(int[] weights) {
         int[] positions = new int[weights.length];
@@ -33,16 +33,10 @@ public class Values {
     static int temp = 0;
     public int getValue() {
         return vals[getValsPosition(random.nextInt(count))];
-//        int gotCount = random.nextInt(count); // возвращает (псевдо)случайное число от 0 (включительно) до значения count (исключительно)
-//        int position = getValsPosition(temp++); // получаем нужную позицию для массива vals[]
-//        return vals[position]; // возвращаем значение
+
     }
 
-    /**
-     * Принимает рандомное число, полученное ранее и возвращает номер ячейки, которая подходит под это рандомное число
-     * @param gotCount
-     * @return
-     */
+
     private int getValsPosition(int gotCount) {
         int result = 0;
         System.out.println("random - " + gotCount);
