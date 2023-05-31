@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="720.0" minWidth="1280.0" style="-fx-background-color: #2A324B;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appex.allRideController">
+   <children>
+      <AnchorPane layoutY="123.0" prefHeight="597.0" prefWidth="1280.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label layoutX="807.0" layoutY="187.0" prefHeight="49.0" prefWidth="334.0" text="Получить все поезда">
+               <font>
+                  <Font name="Segoe UI Semibold" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="855.0" layoutY="224.0" prefHeight="49.0" prefWidth="210.0" text="Для получения поездов," textOverrun="CLIP">
+               <font>
+                  <Font name="Segoe UI Semibold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="867.0" layoutY="248.0" prefHeight="49.0" prefWidth="185.0" text="и нажмите на кнопку" textOverrun="CLIP">
+               <font>
+                  <Font name="Segoe UI Semibold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="addRide" layoutX="72.0" layoutY="44.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="163.0" style="-fx-background-color: #767B91;" text="Добавить рейс" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="allRide" layoutX="312.0" layoutY="44.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="163.0" style="-fx-background-color: #767B91;" text="Все рейсы" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addTrain" layoutX="537.0" layoutY="44.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="163.0" style="-fx-background-color: #767B91;" text="Добавить поезд" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="allTrain" layoutX="764.0" layoutY="44.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="163.0" style="-fx-background-color: #767B91;" text="Все поезда" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
